@@ -1,0 +1,1078 @@
+@media only screen and (max-width: 600px) {
+
+    :root {
+        --red: red;
+        --blue: blue ;
+        --bg-color: rgb(0, 0, 34);
+        --purple:  rgba(78, 13, 139, 0.63);
+        --dark-purple: rgb(141, 2, 168);;
+        --white: white;
+        --black: black;
+        --green: green;
+        --transparent: rgba(240, 248, 255, 0);
+        --para-color: rgb(165, 165, 165) ;
+    }
+    /* body{
+        background-color: var(--bg-color);
+    } */
+    .page{
+        background-color: var(--bg-color);
+        margin: 0px;
+        height: 100% ;
+        width: 360px;
+
+    }
+    .bg img{
+        text-overflow: unset;
+        height: 25%;
+        position: absolute;
+        top: 0px;
+
+    }
+    .container{
+        height: 100px;
+        padding: 10px;
+        width: 360px;
+    }
+    .header{
+        display: flex;
+    }
+    .header  .logo{
+        height:30px;
+    }
+    .nav-links{
+
+        display: flex;
+        position: absolute;
+        right: 0px;
+
+    }
+    .nav-links li{
+         list-style: none;
+         padding: 2px 5px;
+
+    }
+    .nav-links li a{
+        text-decoration: none;
+        color: var(--white);
+        font-family: 'Times New Roman', Times, serif ;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .content{
+
+        height: 550px;
+        width: 360px;
+
+}
+
+.main-me  {
+
+   text-align: center;
+   justify-content: center;
+    margin: 10px;
+    width: 300px;
+    height: 210px;
+}
+.main-me .info img{
+    border-radius: 10px;
+    position: absolute;
+    top: 380px;
+    left: 25px;
+    width: 300px;
+    height: 310px;
+}
+
+.main-me .info h2{
+    color: var(--dark-purple) ;
+    font-size: 55px;
+}
+.main-me .info span{
+    color: var(--white);
+}
+.main-me .info h1{
+    color: var(--white) ;
+    font-size: 35px;
+
+}
+.main-me .info p{
+    border:  2px solid red;
+    width: 320px;
+    left:  0px;
+    position: relative;
+    color: var(--para-color) ;
+    font-size: 25px;
+}
+.main-me  button {
+    display: block;
+}
+
+ button{
+
+    align-content: center;
+    background-color: var(--dark-purple);
+    padding: 4px 20px;
+    margin: 10px;
+    margin-right: 80px;
+    color: var(--white);
+    border: 0px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+    direction: ltr;
+}
+.btn-b{
+    position: relative;
+    left: 65%;
+    top: -35px;
+
+    border: 3px solid var(--dark-purple);
+    padding: 4px 20px;
+    background-color: var(--transparent);
+    color: var(--white);
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+}
+.btn-b{
+
+    border: 3px solid var(--dark-purple);
+    padding: 4px 20px;
+    background-color: var(--transparent);
+    color: var(--white);
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+}
+.main-me .infogra {
+    width: 360px;
+    text-align: center;
+    justify-content: center;
+}
+.main-me img{
+    border-radius: 10px;
+    position: absolute;
+    top: 360px;
+    left: 25px;
+    width: 300px;
+    height: 310px;
+}
+
+.main-me .infogra h2{
+    color: var(--dark-purple) ;
+    font-size: 55px;
+}
+.main-me .infogra span{
+    color: var(--white);
+}
+.main-me .infogra h1{
+    color: var(--white) ;
+    font-size: 35px;
+
+}
+.main-me .infogra p{
+
+    width: 360px;
+    padding-top: 20px;
+    color: var(--para-color) ;
+    font-size: 25px;
+}
+
+ button{
+
+    align-content: center;
+    background-color: var(--dark-purple);
+    padding: 4px 20px;
+    margin: 10px;
+    margin-right: 80px;
+    color: var(--white);
+    border: 0px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+    direction: ltr;
+}
+.btn-b{
+    position: relative;
+    left: 65%;
+    top: -35px;
+
+    border: 3px solid var(--dark-purple);
+    padding: 4px 20px;
+    background-color: var(--transparent);
+    color: var(--white);
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+}
+.main-me .infogra .btn-a{
+    border: 3px solid var(--dark-purple);
+    padding: 4px 20px;
+    background-color: var(--transparent);
+    color: var(--white);
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+    left:  30%;
+    position: relative;
+
+}
+
+.feature-rectangle{
+
+    height: 20px;
+}
+
+.rect-head{
+    margin: 20px;
+    color: var(--white);
+}
+.rect{
+ background-color: var(--purple);
+    height: 60px;
+    border-radius: 10px;
+}
+.content-code{
+
+    height: 700px;
+
+
+}
+.main-code {
+
+    text-align: center;
+    width: 360px;
+    height: 350px;
+
+}.main-code img{
+    border-radius: 10px;
+    position: absolute;
+    top: 1200px;
+    left: 12px;
+    height: 300px;
+
+}
+.main-code .info h1{
+    color: var(--white) ;
+    font-size: 39px;
+    text-align: center;
+    left:  50px;
+    position: relative;
+    width: 320px;
+
+}
+.main-code .info h2{
+    color: var(--dark-purple) ;
+    font-size: 59px;
+    text-align: center;
+    left:  50px;
+    position: relative;
+    width: 320px;
+
+}
+
+.main-code .info p{
+    color: var(--para-color) ;
+    font-size: 25px;
+    text-align: justify;
+    padding: 20px 0px;
+    width: 320px;
+    left:  50px;
+    position: relative;
+}
+
+
+.main-code .info .btn-a{
+    background-color: var(--dark-purple);
+    /* box-shadow: 0 0 0 10px #ff0000, 0 0 0 20px #00ff00; */
+        /* The first color will have a smaller blur and offset than the second color */
+    padding: 4px 20px;
+
+    margin-left: 27%;
+    color: var(--white);
+    border: 0px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+    direction: ltr;
+}
+.content-edit{
+
+    width: 360px;
+    height: 700px;
+}
+.main-edit {
+    width: 360px;
+    height: 350px;
+    padding-top: 20px;
+
+}
+.main-edit .infoedit p{
+    color: var(--para-color) ;
+    font-size: 25px;
+    text-align: justify;
+    width: 320px;
+    left:  15px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.main-edit .infoedit{
+    text-align: center;
+
+}
+.main-edit .imgedit{
+    border-radius: 10px;
+    position: absolute;
+    top: 2670px;
+    left: 30px;
+    height: 300px;
+
+
+}.main-edit .info h2{
+    color: var(--dark-purple) ;
+    font-size: 35px;
+}
+.main-edit .info h1{
+    color: var(--white) ;
+    font-size: 39px;
+
+}
+.main-me .gra {
+    border-radius: 10px;
+    position: absolute;
+    top: 1910px;
+    left: 30px;
+    height: 300px;
+}
+.main-edit .info p{
+    color: var(--para-color) ;
+    font-size: 25px;
+    text-align: justify;
+
+    width: 300px;
+}
+.main-edit .infoedit h2{
+    color: var(--dark-purple) ;
+    font-size: 35px;
+}
+.main-edit .infoedit h1{
+    color: var(--white) ;
+    font-size: 39px;
+
+}
+.main-edit .infoedit .btn-a{
+    background-color: var(--dark-purple);
+    /* box-shadow: 0 0 0 10px #ff0000, 0 0 0 20px #00ff00; */
+        /* The first color will have a smaller blur and offset than the second color */
+    padding: 4px 20px;
+
+    margin-left: 27%;
+    color: var(--white);
+    border: 0px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+    left:  1%;
+    position: relative;
+}
+.content-graphics{
+
+    margin-top: 10px;
+    height: 600px;
+    display: block;
+
+}
+.strock{
+    margin-top: 30px;
+    height: 15px;
+    border-radius: 10px;
+    width: 360px;
+    background: linear-gradient(to right  , #00aeff, #cc00ff);
+}
+.strock2{
+    margin-top: 30px;
+    height: 15px;
+    border-radius: 10px;
+    width: 30px;
+    background: linear-gradient(to left  , #00aeff, #cc00ff);
+}
+.strock-big{
+    margin-top: 30px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 25px;
+    width: 340px;
+    background: linear-gradient(to right  , #00aeff, #cc00ff);
+}
+.testy {
+
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.testy h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+.testy p {
+    font-size: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.815);
+}
+.testy-section{
+
+    display: block;
+    width: 300px;
+
+    font-size: 50px;
+
+    text-align: center;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.815);
+}
+.test{
+    padding-bottom: 20px;
+    margin: 60px 5px;
+    background-color: #00aeff;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+.testy-section .test img{
+    position: relative;
+    top: -50px;
+    height: 100px;
+    border-radius: 50%;
+    }
+.testy-section .test h1{
+    font-size: 33px;
+    text-align: center;
+    color: white;
+    margin-top: -50px;
+    padding: 5px;
+}
+.testy-section .test p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-align: justify;
+    padding: 10px 20px;
+}
+.strock-big{
+    text-align: center;
+    height: 250px;
+}
+.strock-big p{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.strock-big h1{
+    color: var(--white);
+    font-size: 40px;
+    font-family: 'Monotype Corsiva';
+    font-weight: bold;
+    padding-top: 10px;
+    text-shadow: 0px 1px 5px black;
+}
+.footer{
+
+    padding: 60px 0px 20px 0px;
+    bottom: 0px;
+    height: 650px;
+    width: 360px;
+    display: block;
+
+    text-align: center;
+ 
+    font-size: 20px;
+}
+.footer .rows{
+    justify-content: center;
+    display: block;
+    height: 200px;
+
+    text-align: center;
+    justify-content: space-between;
+}
+.footer .row{
+    width: 300px;
+     margin: 10px;
+
+    border-radius: 20px;
+    justify-content: center;
+    width: 10%;
+}
+.footer .row-1{
+    height: 200px;
+    margin: 10px;
+    border-radius: 0px;
+    justify-content: center;
+    width: 10%;
+   color: white;
+
+   width: 350px;
+    font-family: 'Bahnschrift SemiBold Condensed';
+}
+.footer .row h2{
+
+    width: 300px;
+    color: rgb(209, 209, 209);
+
+    font-family: 'Bahnschrift SemiBold Condensed';
+}
+.footer p{
+    position: absolute;
+    bottom: 0px;
+    color: rgb(185, 185, 185);
+}
+.footer img{
+    height: 150px;
+    padding: 10px;
+    margin-left:  20px;
+
+}
+.footer li{
+    list-style: none;
+    text-align: center;
+    padding: 5px;width: 300px;
+    text-align: left;
+
+}
+.footer li a{
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+}
+
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+
+
+    .page{
+        background-color: var(--bg-color);
+        margin: 0px;
+        height: 100% ;
+      
+
+    }
+    .bg img{
+        text-overflow: unset;
+        height: 25%;
+        position: absolute;
+        top: 0px;
+
+    }
+    .container{
+
+        height: 100px;
+        padding: 10px;
+        width: 360px;
+    }
+    .header{
+        display: flex;
+    }
+    .header  .logo{
+        height:30px;
+    }
+    .nav-links{
+
+        display: flex;
+        position: absolute;
+        right: 0px;
+
+    }
+    .nav-links li{
+         list-style: none;
+         padding: 2px 5px;
+
+    }
+    .nav-links li a{
+        text-decoration: none;
+        color: var(--white);
+        font-family: 'Times New Roman', Times, serif ;
+        font-weight: bolder;
+        font-size: 20px;
+    }
+    .content{
+       
+        height: 290px;
+        display: flex;
+
+    }
+
+.main-me  {
+   
+    text-align: center;
+    justify-content: center;
+    margin: 10px;
+ 
+    height: 210px;
+}
+
+.main-me  .me{
+    border-radius: 40px;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    height: 270px;
+}
+
+.main-me .info h2{
+    color: var(--dark-purple) ;
+    font-size: 55px;
+}
+.main-me .info span{
+    color: var(--white);
+}
+.main-me .info h1{
+    color: var(--white) ;
+    font-size: 35px;
+
+}
+.main-me .info p{
+    border:  2px solid red;
+    width: 320px;
+    left:  0px;
+    position: relative;
+    color: var(--para-color) ;
+    font-size: 25px;
+}
+.main-me  button {
+    display: block;
+}
+
+ button{
+
+    align-content: center;
+    background-color: var(--dark-purple);
+    padding: 4px 20px;
+    margin: 10px;
+    margin-right: 80px;
+    color: var(--white);
+    border: 0px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+    direction: ltr;
+}
+.btn-b{
+    position: relative;
+    left: 65%;
+    top: -35px;
+
+    border: 3px solid var(--dark-purple);
+    padding: 4px 20px;
+    background-color: var(--transparent);
+    color: var(--white);
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+}
+.btn-b{
+
+    border: 3px solid var(--dark-purple);
+    padding: 4px 20px;
+    background-color: var(--transparent);
+    color: var(--white);
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+}
+.main-me .infogra {
+    text-align: center;
+    justify-content: center;
+   
+}
+ 
+.main-me .gra {
+    border-radius: 10px;
+    position: absolute;
+    top: 1080px;
+    left: 460px;
+    height: 270px;
+}
+.content-graphics{
+   
+    margin-top: 10px;
+    height: 350px;
+    display: block;
+
+
+}
+.main-me .infogra h2{
+    color: var(--dark-purple) ;
+    font-size: 55px;
+}
+.main-me .infogra span{
+    color: var(--white);
+}
+.main-me .infogra h1{
+    color: var(--white) ;
+    font-size: 35px;
+
+}
+.main-me .infogra p{
+
+    width: 360px;
+    padding-top: 20px;
+    color: var(--para-color) ;
+    font-size: 25px;
+}
+
+ button{
+
+    align-content: center;
+    background-color: var(--dark-purple);
+    padding: 4px 20px;
+    margin: 10px;
+    margin-right: 80px;
+    color: var(--white);
+    border: 0px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+    direction: ltr;
+}
+.btn-b{
+    position: relative;
+    left: 65%;
+    top: -35px;
+
+    border: 3px solid var(--dark-purple);
+    padding: 4px 20px;
+    background-color: var(--transparent);
+    color: var(--white);
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+}
+.main-me .infogra .btn-a{
+    border: 3px solid var(--dark-purple);
+    padding: 4px 20px;
+    background-color: var(--transparent);
+    color: var(--white);
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+    left:  30%;
+    position: relative;
+
+}
+
+.feature-rectangle{
+
+    height: 20px;
+}
+
+.rect-head{
+    margin: 20px;
+    color: var(--white);
+}
+.rect{
+    background-color: var(--purple);
+    height: 60px;
+    border-radius: 10px;
+}
+.content-code{
+    height: 400px;
+
+
+}
+.main-code {
+
+    text-align: center;
+    width: 360px;
+    height: 350px;
+
+}.main-code img{
+    border-radius: 10px;
+    position: absolute;
+    top: 590px;
+    left: 12px;
+    width: 320px;
+    height: 380px;
+
+}
+.main-code .info h1{
+    color: var(--white) ;
+    font-size: 39px;
+    text-align: center;
+    left:  50px;
+    position: relative;
+    width: 320px;
+
+}
+.main-code .info h2{
+    color: var(--dark-purple) ;
+    font-size: 59px;
+    text-align: center;
+    left:  50px;
+    position: relative;
+    width: 320px;
+
+}
+
+.main-code .info p{
+    color: var(--para-color) ;
+    font-size: 25px;
+    text-align: justify;
+    padding: 20px 0px;
+    width: 320px;
+    left:  50px;
+    position: relative;
+}
+.main-code .info .btn-a{
+    background-color: var(--dark-purple);
+    /* box-shadow: 0 0 0 10px #ff0000, 0 0 0 20px #00ff00; */
+        /* The first color will have a smaller blur and offset than the second color */
+    padding: 4px 20px;
+
+    margin-left: 27%;
+    color: var(--white);
+    border: 0px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+    direction: ltr;
+}
+.content-edit{
+  
+    height: 400px;
+}
+.main-edit {
+  
+    width: 360px;
+    height: 350px;
+    padding-top: 20px;
+
+}
+.main-edit .infoedit p{
+    color: var(--para-color) ;
+    font-size: 25px;
+    text-align: justify;
+    width: 320px;
+    left:  15px;
+    position: relative;
+    padding-top: 20px;
+}
+
+.main-edit .infoedit{
+    text-align: center;
+
+}
+.main-edit .imgedit{
+    border-radius: 10px;
+    position: absolute;
+    top: 1480px;
+    left: 400px;
+    height: 350px;
+
+
+}.main-edit .info h2{
+    color: var(--dark-purple) ;
+    font-size: 35px;
+}
+.main-edit .info h1{
+    color: var(--white) ;
+    font-size: 39px;
+
+}
+
+.main-edit .info p{
+    color: var(--para-color) ;
+    font-size: 25px;
+    text-align: justify;
+
+    width: 300px;
+}
+.main-edit .infoedit h2{
+    color: var(--dark-purple) ;
+    font-size: 35px;
+}
+.main-edit .infoedit h1{
+    color: var(--white) ;
+    font-size: 39px;
+
+}
+.main-edit .infoedit .btn-a{
+    background-color: var(--dark-purple);
+    /* box-shadow: 0 0 0 10px #ff0000, 0 0 0 20px #00ff00; */
+        /* The first color will have a smaller blur and offset than the second color */
+    padding: 4px 20px;
+
+    margin-left: 27%;
+    color: var(--white);
+    border: 0px;
+    border-radius: 25px;
+    font-size: 15px;
+    font-family:'Times New Roman', Times, serif ;
+    left:  1%;
+    position: relative;
+}
+
+.strock{
+    margin-top: 30px;
+    height: 15px;
+    border-radius: 10px;
+    background: linear-gradient(to right  , #00aeff, #cc00ff);
+}
+.strock2{
+    margin-top: 30px;
+    height: 15px;
+    border-radius: 10px;
+    background: linear-gradient(to left  , #00aeff, #cc00ff);
+}
+.strock-big{
+    margin-top: 30px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 25px;
+    width: 340px;
+    background: linear-gradient(to right  , #00aeff, #cc00ff);
+}
+.testy {
+  
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.testy h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+.testy p {
+    font-size: 20px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.815);
+}
+.testy-section{
+    display: flex;
+    width: 100%;
+    font-size: 50px;
+    text-align: center;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.815);
+}
+.test{
+    padding-bottom: 20px;
+    margin: 60px 5px;
+    background-color: #0079b1;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+.testy-section .test img{
+    position: relative;
+    top: -50px;
+    height: 100px;
+    border-radius: 50%;
+    }
+.testy-section .test h1{
+    font-size: 33px;
+    text-align: center;
+    color: white;
+    margin-top: -50px;
+    padding: 5px;
+}
+.testy-section .test p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-align: justify;
+    padding: 10px 20px;
+}
+.strock-big{
+    text-align: center;
+    height: 250px;
+    width: auto;
+    padding: 10px 50px;
+}
+.strock-big p{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.strock-big h1{
+    color: var(--white);
+    font-size: 40px;
+    font-family: 'Monotype Corsiva';
+    font-weight: bold;
+    padding-top: 10px;
+    text-shadow: 0px 1px 5px black;
+}
+.footer{
+    padding: 20px 0px 20px 0px;
+    bottom: 0px;
+    height: 220px;
+    display: block;
+    text-align: center;
+
+    font-size: 20px;
+    max-width: 900px;
+    
+}
+.footer .rows{
+    
+    display: flex;
+    height: 200px;
+    width: auto;
+    text-align: center;
+    justify-content: space-between;
+}
+.footer .row{
+    padding: 20px;
+   
+   border-radius: 20px;
+    justify-content: center;
+   
+}
+.footer .row-1{
+  
+    color: white;
+   
+    font-family: 'Bahnschrift SemiBold Condensed';
+}
+.footer .row h2{
+    font-size: 20px;
+    color: rgb(209, 209, 209);
+    font-family: 'Bahnschrift SemiBold Condensed';
+}
+.footer p{
+    position: relative;
+    padding-bottom: 100px;
+    left: auto;
+    right: auto;
+    color: rgb(185, 185, 185);
+    text-align: center;
+}
+.footer img{
+    height: 50px;
+   
+    margin-left:  20px;
+
+}
+.footer li{
+    list-style: none;
+    text-align: center;
+    padding: 5px;
+    text-align: left;
+
+}
+.footer li a{
+    text-decoration: none;
+    color: rgb(148, 148, 148);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+}
+
+
