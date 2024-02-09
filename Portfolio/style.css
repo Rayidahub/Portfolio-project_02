@@ -1,0 +1,381 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+:root {
+    --red: red;
+    --blue: blue ;
+    --bg-color: rgb(0, 0, 34);
+    --purple:  rgba(78, 13, 139, 0.63);
+    --dark-purple: rgb(141, 2, 168);;
+    --white: white;
+    --black: black;
+    --green: green;
+    --transparent: rgba(240, 248, 255, 0);
+    --para-color: rgb(165, 165, 165) ;
+}
+body{
+    background-color: var(--bg-color);
+}
+.page{
+    background-color: var(--bg-color);
+    margin: 60px;
+    height: 100% ;
+   
+}
+.bg img{
+    text-overflow: unset;
+    height: 45%;
+    position: absolute;
+    top: 0px;
+
+}
+.container{
+ 
+    height: 100px;
+    padding: 20px;
+}
+.header{
+    display: flex;
+}
+.header  .logo{
+    height:70px;
+}
+.nav-links{
+   
+    display: flex;
+    position: absolute;
+    right: 100px;
+    
+}
+.nav-links li{
+     list-style: none;
+     padding: 2px 5px;
+     margin: 20px;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: var(--white);
+    font-family: 'Times New Roman', Times, serif ;
+    font-weight: bolder;
+    font-size: 30px;
+}
+.content{ 
+    margin-top: 20px;
+    
+    height: 450px;
+     
+}
+.content-gap{ 
+    margin-top: 20px;
+    
+    height: 250px;
+     
+}
+.main-me {
+    width: 50%;
+    text-align: justify;
+    padding: 20px;
+    height: 400px;
+    display: flex; 
+    margin: 10px;
+    
+}
+.main-me img{
+    border-radius: 10px;
+    position: absolute;
+    top: 20;
+    right: 140px;
+    height: 400px;
+}
+.main-me .info h2{
+    color: var(--dark-purple) ;
+    font-size: 60px;
+}
+.main-me .info span{
+    color: var(--white);
+}
+.main-me .info h1{
+    color: var(--white) ;
+    font-size: 85px;   
+
+}
+.main-me .info p{
+    text-align: justify;
+    width: 103%;
+    color: var(--para-color) ;
+    font-size: 28px;   
+
+}
+
+ button{
+    align-content: center;
+    background-color: var(--dark-purple);
+    padding: 10px 30px;
+    margin: 10px;
+    margin-right: 80px;
+    color: var(--white);
+    border: 0px;
+    border-radius: 25px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif ;
+    direction: ltr;
+}
+.btn-b{
+    border: 3px solid var(--dark-purple);
+    padding: 10px 30px;
+    background-color: var(--transparent);
+    color: var(--white);
+    border-radius: 25px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif ;
+}
+
+.feature-rectangle{
+    
+    height: 70px;
+}
+
+.rect-head{
+    margin: 20px;
+    color: var(--white);
+}
+.rect{
+ 
+    background-color: var(--purple);
+    height: 60px;
+    border-radius: 10px;
+}
+.content-code{  
+   
+    height: 400px;
+    padding: 20px;
+    
+}
+.main-code {
+    display: flex;
+   
+    width: 40%;
+    height: 400px;
+    top: 0;
+    display: flex; 
+    float: right;
+    right: 1px;
+    padding: 10px;
+}
+.main-code img{
+    border-radius: 10px;
+    position: absolute;
+    top: 20;
+    left: 100px;
+    height: 400px;
+}
+.main-code .info h2{
+    color: var(--dark-purple) ;
+    font-size: 65px;
+}
+.main-code .info h1{
+    color: var(--white) ;
+    font-size: 69px;   
+   
+}
+.main-code .info p{
+    color: var(--para-color) ;
+    font-size: 28px;   
+    text-align: justify;
+
+
+}
+button{
+    align-content: center;
+}
+.main-code .info .btn-a{
+    background-color: var(--dark-purple);
+    /* box-shadow: 0 0 0 10px #ff0000, 0 0 0 20px #00ff00; */
+        /* The first color will have a smaller blur and offset than the second color */
+    padding: 10px 30px;
+    margin: 10px;
+    margin-left: 27%;
+    color: var(--white);
+    border: 0px;
+    border-radius: 25px;
+    font-size: 25px;
+    font-family:'Times New Roman', Times, serif ;
+    direction: ltr;
+}
+.content-graphics{
+   
+    margin-top: 40px;
+}
+.strock{
+    margin-top: 30px;
+    height: 15px;
+    border-radius: 10px;
+    width: 100%;
+    background: linear-gradient(to right  , #00aeff, #cc00ff);
+}
+.strock2{
+    margin-top: 30px;
+    height: 15px;
+    border-radius: 10px;
+    width: 100%;
+    background: linear-gradient(to left  , #00aeff, #cc00ff);
+}
+.strock-big{
+    margin-top: 30px;
+    height: 400px;
+    border-radius: 25px;
+    width: 100%;
+    background: linear-gradient(to right  , #00aeff, #cc00ff);
+}
+.testy {
+  
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.testy h1 {
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+.testy p {
+    font-size: 50px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.815);
+}
+.testy-section{
+    display: flex;
+   
+    font-size: 50px;
+    margin-top: 50px;
+    text-align: center;
+    justify-content: space-between;
+    color: rgba(255, 255, 255, 0.815);
+}
+.test{
+    margin: 10px;
+    background-color: #00aeff;
+    border-radius: 20px;
+    justify-content: center;
+    
+}
+.testy-section .test img{
+    position: relative;
+    top: -50px;
+    height: 100px;
+    border-radius: 50%;
+    }
+.testy-section .test h1{
+    font-size: 33px;
+    text-align: center;
+    color: white;
+    margin-top: -50px;
+    padding: 5px;
+}
+.testy-section .test p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-align: justify;
+    padding: 10px 20px;
+}
+.display{
+    margin: 10px;
+    background-color: #00aeff;
+    border-radius: 20px;
+    justify-content: center;
+        
+    
+}
+.testy-section .display h1{
+    font-size: 33px;
+    text-align: center;
+    color: white;
+    margin-top: -50px;
+    padding: 5px;
+}
+.testy-section .display p{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    text-align: justify;
+    padding: 10px 20px;
+}
+.strock-big{
+    text-align: center;   
+}
+.strock-big p{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    padding-top: 100px;
+}
+.strock-big h1{
+    color: var(--white);
+    font-size: 70px;
+    font-family: 'Monotype Corsiva';
+    font-weight: bold;
+    padding-top: 10px;
+    text-shadow: 0px 1px 5px black;
+}
+.footer{  
+    padding: 60px 0px 20px 0px;
+    position: relative;
+    
+    width: 100%;
+    text-align: center;
+   
+    font-size: 20px;
+}
+.footer .rows{
+    display: flex;
+    height: 200px;
+    text-align: center;
+    justify-content: space-between;
+}
+.footer .row{
+   
+     margin: 10px;
+   
+    border-radius: 20px;
+    justify-content: center;
+    width: 30%;
+}
+.footer .row-1{
+    height: 200px;
+    margin: 10px;
+    border-right:  5px solid rgb(170, 170, 170);
+   border-radius: 0px;
+   justify-content: center;
+   width: 30%;
+   color: white;
+    font-family: 'Bahnschrift SemiBold Condensed';
+}
+.footer .row h2{
+    color: white;
+    font-family: 'Bahnschrift SemiBold Condensed';
+}
+.footer p{
+    margin-top: 20px;
+    color: rgb(185, 185, 185);
+}
+.footer img{
+    margin-top: 0px;
+    height: 50px;
+    padding: 20px;
+
+}
+.footer li{
+    list-style: none;
+    padding: 5px;
+    text-align: left;
+}
+.footer li a{
+    padding: px;
+    text-decoration: none;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
